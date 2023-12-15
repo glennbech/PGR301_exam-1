@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     env: 
       AWS_SAM_S3_ARTIFACT: pgr301-sam-bucket
-      AWS_BUCKET_NAME: candidate2014
-      AWS_STACK_NAME: candidate2014
+      AWS_BUCKET_NAME: candidate2014s
+      AWS_STACK_NAME: candidate2014s
 
     steps:
       - uses: actions/checkout@v4
